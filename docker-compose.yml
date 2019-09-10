@@ -6,4 +6,4 @@ services:
     volumes:
       - ./product:/usr/src/app
     ports:
-      -5001:80
+      - 5001:80
