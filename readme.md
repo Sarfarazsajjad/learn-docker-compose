@@ -1,4 +1,4 @@
-# H1 Steps to follow to start from scratch
+# Steps to follow to start from scratch
 1. create product service folder and inside product service create do the next 3 steps
 2. create api.py
 3. create requirements.txt
