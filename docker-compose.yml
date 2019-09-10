@@ -7,3 +7,13 @@ services:
       - ./product:/usr/src/app
     ports:
       - 5001:80
+  # instead of createing an image with build we are using a ready made image from docker hub
+  # for the website
+  website:
+    image: php:apache
+    volumes:
+      - ./website:/var/www/html
+    ports:
+      - 5000:80
+    depends_on:
+      - product-service

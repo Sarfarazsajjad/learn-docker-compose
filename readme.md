@@ -5,4 +5,5 @@
 4. create Dockerfile for product service
 5. then in parent folder of product service folder create docker-compose.yml file to define services
 6. run docker-compose up
+7. create another folder for website and add php files then edit docker-compose.yml to add new website as another service.
 
